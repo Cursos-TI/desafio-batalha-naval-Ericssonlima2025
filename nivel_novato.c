@@ -6,7 +6,7 @@
 #define NAVIO 3
 
 int main() {
-    int tabuleiro[10][10];
+    int tabuleiro[TAM][TAM];
 
     // Inicializa o tabuleiro com água (0)
     for (int i = 0; i < TAMANHO_TABULEIRO; i++) {
